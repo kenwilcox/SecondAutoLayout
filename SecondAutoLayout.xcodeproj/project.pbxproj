@@ -13,6 +13,7 @@
 		BE4E05341A8C7E6000C8B3EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4E05331A8C7E6000C8B3EB /* Images.xcassets */; };
 		BE4E05371A8C7E6000C8B3EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4E05351A8C7E6000C8B3EB /* LaunchScreen.xib */; };
 		BE4E05431A8C7E6000C8B3EB /* SecondAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E05421A8C7E6000C8B3EB /* SecondAutoLayoutTests.swift */; };
+		BE4E054E1A8C892B00C8B3EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE4E054C1A8C892B00C8B3EB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BE4E053C1A8C7E6000C8B3EB /* SecondAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4E05411A8C7E6000C8B3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4E05421A8C7E6000C8B3EB /* SecondAutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAutoLayoutTests.swift; sourceTree = "<group>"; };
+		BE4E054C1A8C892B00C8B3EB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE4E054D1A8C892B00C8B3EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		BE4E051E1A8C7E6000C8B3EB = {
 			isa = PBXGroup;
 			children = (
+				BE4E054C1A8C892B00C8B3EB /* LICENSE */,
+				BE4E054D1A8C892B00C8B3EB /* README.md */,
 				BE4E05291A8C7E6000C8B3EB /* SecondAutoLayout */,
 				BE4E053F1A8C7E6000C8B3EB /* SecondAutoLayoutTests */,
 				BE4E05281A8C7E6000C8B3EB /* Products */,
@@ -194,6 +199,7 @@
 			files = (
 				BE4E05321A8C7E6000C8B3EB /* Main.storyboard in Resources */,
 				BE4E05371A8C7E6000C8B3EB /* LaunchScreen.xib in Resources */,
+				BE4E054E1A8C892B00C8B3EB /* LICENSE in Resources */,
 				BE4E05341A8C7E6000C8B3EB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
