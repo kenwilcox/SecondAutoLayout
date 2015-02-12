@@ -55,7 +55,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UN7-DC-jrW">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UN7-DC-jrW">
                                         <rect key="frame" x="160" y="8" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.20783400129999999" green="0.28284424450000001" blue="0.48013806219999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -143,7 +143,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xo-rF-OkL">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xo-rF-OkL">
                                         <rect key="frame" x="160" y="272" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.20783400129999999" green="0.28284424450000001" blue="0.48013806219999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -190,9 +190,13 @@
                                     <constraint firstItem="1vb-no-tJj" firstAttribute="leading" secondItem="831-N5-PkC" secondAttribute="leading" constant="8" id="Yb5-r0-pQe"/>
                                     <constraint firstAttribute="bottom" secondItem="5e3-LV-HRz" secondAttribute="bottom" constant="8" id="cdm-Xr-EF6"/>
                                     <constraint firstAttribute="bottom" secondItem="1Xo-rF-OkL" secondAttribute="bottom" constant="8" id="dC0-kv-pHn"/>
+                                    <constraint firstAttribute="centerX" secondItem="UN7-DC-jrW" secondAttribute="centerX" constant="0.5" id="dRJ-dX-Lfr"/>
                                     <constraint firstItem="nWW-pm-DJ5" firstAttribute="leading" secondItem="831-N5-PkC" secondAttribute="leading" constant="8" id="g20-EC-ub8"/>
                                     <constraint firstItem="0h8-er-fiI" firstAttribute="top" secondItem="831-N5-PkC" secondAttribute="top" constant="8" id="oL1-pj-gRc"/>
+                                    <constraint firstAttribute="centerX" secondItem="stF-wl-ZFs" secondAttribute="centerX" constant="0.5" id="po7-mY-MEb"/>
                                     <constraint firstAttribute="trailing" secondItem="ZU9-D4-Gd0" secondAttribute="trailing" constant="8" id="van-ah-j7U"/>
+                                    <constraint firstAttribute="centerX" secondItem="cjt-z2-27Y" secondAttribute="centerX" constant="0.5" id="w80-Co-oDu"/>
+                                    <constraint firstAttribute="centerX" secondItem="1Xo-rF-OkL" secondAttribute="centerX" constant="0.5" id="wOn-9V-zCg"/>
                                 </constraints>
                             </view>
                         </subviews>
